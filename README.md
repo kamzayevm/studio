@@ -3,6 +3,10 @@
 HackerView is a modern, open-source web application built with **Next.js** and **TypeScript**.  
 It is a simplified Hacker News clone that fetches data from the official Hacker News API and displays them in a clean, responsive UI.
 
+## Firebase link https://studio--studio-6231640998-ee005.us-central1.hosted.app
+
+
+
 ## Features
 
 - Top Stories & New Stories – Browse the most popular and latest Hacker News posts  
@@ -20,43 +24,36 @@ It is a simplified Hacker News clone that fetches data from the official Hacker 
 ## Installation
 
 Clone the repository:
-git clone https://github.com/kamzayevm/studio
-
+ -git clone https://github.com/kamzayevm/studio
 
 ## Navigate into the project:
+-cd hackerview
 
-cd hackerview
-
-Install dependencies:
-npm install
+## Install dependencies:
+-npm install
 
 ## Usage
+
 Start the development server:
-npm run dev
+-npm run dev
 
 Open your browser and go to: http://localhost:3000
 
-
 ## Project Structure
-.
-├── src/
-│   ├── app/         # Next.js app router pages
-│   ├── components/  # Reusable UI components
-│   ├── hooks/       # Custom React hooks
-│   ├── lib/         # API utils and helpers
-│   └── ai/          # AI-related features
-├── public/          # Static assets
-├── package.json
-├── tailwind.config.ts
-└── README.md
+<img width="400" height="224" alt="Снимок экрана 2025-10-04 в 19 38 58" src="https://github.com/user-attachments/assets/8add4310-a4f3-4542-909c-3593d7adfbd2" />
 
 ## Contribution
 Contributions are welcome.
-Fork the repository
-Create a feature branch (git checkout -b feature-name)
-Commit your changes (git commit -m "Add feature")
-Push to your branch (git push origin feature-name)
-Open a Pull Request
+
+1.Fork the repository.
+
+2.Create a feature branch (git checkout -b feature-name).
+
+3.Commit your changes (git commit -m "Add feature").
+
+4.Push to your branch (git push origin feature-name).
+
+5.Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License.
