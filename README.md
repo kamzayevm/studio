@@ -1,82 +1,62 @@
 # HackerView
 
 HackerView is a modern, open-source web application built with **Next.js** and **TypeScript**.  
-It serves as an enhanced **Hacker News clone**, offering feeds for top and new stories, story details, and AI-powered insights that analyze discussions to suggest relevant resources.
+It is a simplified Hacker News clone that fetches data from the official Hacker News API and displays them in a clean, responsive UI.
+
+## Features
+
+- Top Stories & New Stories – Browse the most popular and latest Hacker News posts  
+- API Integration – Powered by the official [Hacker News API](https://github.com/HackerNews/API)  
+- Modern UI – Built with React, Tailwind CSS, and Next.js App Router  
+- Static Login Pages – Non-functional demo pages for login/register  
 
 ## Tech Stack
 
-- Framework: Next.js (App Router)
-- Language: TypeScript
-- UI: React
-- Styling: Tailwind CSS
-- Components: ShadCN UI
-- Icons: Lucide React
-- AI Layer: LLM-based Comment Analysis
-- State Management: React Hooks & Context API
-- Data Source: Official Hacker News API
+- Framework: Next.js (App Router)  
+- Language: TypeScript  
+- Styling: Tailwind CSS  
+- UI: React Components  
+
+## Installation
+
+Clone the repository:
+git clone https://github.com/kamzayevm/studio
+
+
+## Navigate into the project:
+
+cd hackerview
+
+Install dependencies:
+npm install
+
+## Usage
+Start the development server:
+npm run dev
+
+Open your browser and go to: http://localhost:3000
+
 
 ## Project Structure
+.
+├── src/
+│   ├── app/         # Next.js app router pages
+│   ├── components/  # Reusable UI components
+│   ├── hooks/       # Custom React hooks
+│   ├── lib/         # API utils and helpers
+│   └── ai/          # AI-related features
+├── public/          # Static assets
+├── package.json
+├── tailwind.config.ts
+└── README.md
 
-src
-├── ai/ # LLM comment analysis configuration & logic
-├── app/ # Next.js App Router: routes, pages, and layouts
-├── components/ # Reusable React components
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions, API clients, and types
-└── ...
+## Contribution
+Contributions are welcome.
+Fork the repository
+Create a feature branch (git checkout -b feature-name)
+Commit your changes (git commit -m "Add feature")
+Push to your branch (git push origin feature-name)
+Open a Pull Request
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js v18 or later
-- npm or pnpm
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/hackerview.git
-cd hackerview
-npm install
-Run Development Server
-npm run dev
-Open your browser and navigate to:
-http://localhost:3000
-Available Scripts
-npm run dev – Start development server
-npm run build – Build for production
-npm run start – Start production server
-npm run lint – Lint codebase
-Features
-Top and New Stories Feeds
-Story details view with author, date, and link
-AI-powered comment analysis for related sources
-Static authentication pages (non-functional)
-Responsive and minimal UI
-Contribution Guidelines
-Use functional React components and Hooks
-Follow TypeScript best practices
-Use ShadCN UI and Tailwind CSS for styling
-Keep UI responsive and accessible
-Implement new AI logic under src/ai/
-License
-MIT License
-Copyright (c) 2025 HackerView
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+## License
+This project is licensed under the MIT License.
